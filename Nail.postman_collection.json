@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "b02af376-9edc-4cd9-b561-e58baef9c9aa",
+		"name": "Nail",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api-wpm.apicasystem.com/v3/Checks/3332560/results?mostrecent=1&detail_level=1&auth_ticket=ACD583D5-DCBC-43DB-ABAC-E3E4E9BE0539",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-wpm.apicasystem.com/v3/Checks/{{var1}}/{{var2}}/{{var3}}",
+					"protocol": "https",
+					"host": [
+						"api-wpm",
+						"apicasystem",
+						"com"
+					],
+					"path": [
+						"v3",
+						"Checks",
+						"{{var1}}",
+						"{{var2}}",
+						"{{var3}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
